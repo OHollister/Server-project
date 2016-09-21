@@ -35,9 +35,6 @@ public class Server {
 
 	public static void main(String args[]) throws IOException,
 			ServletException, InterruptedException, URISyntaxException {
-		
-		System.out.println("TEST");
-		System.out.println("Test 2");
 
 		final ServerSocket server = new ServerSocket();
 		server.setReuseAddress(true);
