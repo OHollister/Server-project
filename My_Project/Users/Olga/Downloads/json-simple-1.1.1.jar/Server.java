@@ -37,6 +37,7 @@ public class Server {
 			ServletException, InterruptedException, URISyntaxException {
 		
 		System.out.println("TEST");
+		System.out.println("Test 2");
 
 		final ServerSocket server = new ServerSocket();
 		server.setReuseAddress(true);
