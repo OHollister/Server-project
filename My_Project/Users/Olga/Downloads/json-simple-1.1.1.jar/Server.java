@@ -30,10 +30,13 @@ import javax.servlet.http.HttpServletResponse;
 
 //http://localhost:1234/
 
+
 public class Server {
 
 	public static void main(String args[]) throws IOException,
 			ServletException, InterruptedException, URISyntaxException {
+		
+		System.out.println("TEST");
 
 		final ServerSocket server = new ServerSocket();
 		server.setReuseAddress(true);
